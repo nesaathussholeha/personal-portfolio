@@ -12,172 +12,30 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="assets/logo.png" alt="logo" class="logo">
+                <div class="logo-space"></div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skill</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skill</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+
             <div class="header-text">
                 <p>Website Developer</p>
-                <h1>Hi, I'm <span>Nesa</span><br>Athussholeha From Indonesia</h1>
+                <h1>Hi, I'm <span>Nesa</span> Athussholeha</h1>
+                <p style="font-size: 20px;">I specialize in building responsive, user-focused, and modern web experiences.</p>
+                <a href="assets/cv.pdf" download class="btn btn3">Download CV</a>
+                <a href="projects.html" class="btn btn3">Explore My Portfolio</a>
             </div>
+
         </div>
     </div>
 
-    <!-- about -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="assets/user.png">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique error, est deserunt fugit
-                        amet sequi maxime mollitia aliquid doloribus, maiores aliquam consequuntur dignissimos assumenda
-                        dolor officiis libero consequatur pariatur ex?</p>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
+    <script src="js/script.js"></script>
 
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- service -->
-    <div id="service">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="service-list">
-                <div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illum delectus alias! Obcaecati,
-                        explicabo necessitatibus ad dolores doloremque consequuntur saepe</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illum delectus alias! Obcaecati,
-                        explicabo necessitatibus ad dolores doloremque consequuntur saepe</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illum delectus alias! Obcaecati,
-                        explicabo necessitatibus ad dolores doloremque consequuntur saepe</p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- portfolio -->
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="assets/portfolio-1.jpg">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias voluptate provident unde
-                            architecto enim quod </p>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="assets/portfolio-1.jpg">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias voluptate provident unde
-                            architecto enim quod </p>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="assets/portfolio-1.jpg">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias voluptate provident unde
-                            architecto enim quod </p>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="btn">See More</a>
-        </div>
-    </div>
-
-    <!-- contact -->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p>contact@gmail.com</p>
-                    <p>0987654</p>
-                    <div class="social-icons">
-
-                    </div>
-                    <a href="assets/cv.pdf" download class="btn btn2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form>
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-
-    </script>
 </body>
 
 </html>
