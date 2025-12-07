@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="inner-page">
+    <div id="header">
+        <div class="container">
+            <nav class="inner-nav">
+                <div class="logo-space"></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skill</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <h1>About Me</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/user.png">
+                </div>
+                <div class="about-col-2">
+                    <!-- <h1 class="sub-title">About Me</h1> -->
+                    <p>I am a dedicated web developer with a strong interest in creating clean, responsive, and
+                        user-friendly digital experiences. I enjoy solving problems through code and continuously
+                        improving my skills in both front-end and back-end development. For me, building a website is
+                        not just about functionality, but also about delivering an effective and enjoyable user
+                        experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br>HTML, CSS, JavaScript, responsive design</li>
+                            <li><span>UI/UX Design</span><br>Layouting, wireframing, user flow, Figma design</li>
+                            <li><span>Web Development Tools</span><br>Git/GitHub, VS Code, responsive frameworks</li>
+                            <li><span>Basic Back-End</span><br>PHP, MySQL (CRUD, dynamic web pages)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li>
+                                <span>Team Lead – Web Development, PT Humma Teknologi Indonesia<br>
+                                    <small style="color: #ababab;">July – December 2024</small>
+                                </span>
+
+                                <ul class="detail-list">
+                                    <li>Led a team of 3–5 developers to build one of the company’s main websites.</li>
+                                    <li>Assigned tasks, monitored progress, and ensured on-time project delivery.</li>
+                                    <li>Improved UI/UX and performance using Laravel, HTML, CSS, and JavaScript.</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span>Front-End Developer Intern, PT Humma Teknologi Indonesia<br>
+                                    <small style="color: #ababab;">January – December 2024</small>
+                                </span>
+
+                                <ul class="detail-list">
+                                    <li>Developed and maintained three interactive websites using Laravel and front-end
+                                        technologies.</li>
+                                    <li>Collaborated on 5+ development projects across multiple teams.</li>
+                                    <li>Enhanced website performance by up to 20% through UI/UX improvements.</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>B.S. in Information Technology Education</span><br>
+                                Universitas Brawijaya (2025 – Present)<br>
+                                Current GPA: – / 4.00
+                            </li>
+
+                            <li>
+                                <span>High School Diploma</span><br>
+                                SMKN 1 Kepanjen (2022 – 2025)<br>
+                                Graduated with distinction
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
